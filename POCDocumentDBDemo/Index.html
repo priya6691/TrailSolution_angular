@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html ng-app="angularjsApp">
+<head>
+    <title>Product list</title>    
+    <link href="content/bootstrap.min.css" rel="stylesheet" />
+    <link href="content/bootstrap.custom.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="page-header">Product List from Document Db</div>
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <div ng-view="">
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="Scripts/angular.js"></script>
+    <script type="text/javascript" src="Scripts/angular-route.js"></script>
+    <script type="text/javascript" src="App/app.Route.js"></script>
+    <script type="text/javascript" src="App/app.Module.js"></script>
+    <script type="text/javascript" src="App/Model/products.js"></script>
+    <script type="text/javascript" src="App/Service/Services.js"></script>
+    <script type="text/javascript" src="App/controller/productController.js"></script>
+ 
+</body>
+</html>
